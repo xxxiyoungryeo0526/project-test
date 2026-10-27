@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="关于缓慢加载博客。">
+  <meta name="theme-color" content="#f4efe6">
+  <title>关于 | 缓慢加载</title>
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="../" aria-label="缓慢加载首页"><span class="brand-mark" aria-hidden="true">缓</span><span>缓慢加载</span></a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="../">首页</a>
+        <a href="../posts/">文章</a>
+        <a class="active" href="./" aria-current="page">关于</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="切换深浅主题" aria-pressed="false"><span aria-hidden="true" data-theme-icon>◐</span><span data-theme-label>深色</span></button>
+    </div>
+  </header>
+
+  <main id="main-content" class="shell page-main">
+    <header class="page-heading reveal">
+      <p class="eyebrow">ABOUT THIS SITE</p>
+      <h1>关于</h1>
+      <p>一间很小的个人博客，也是一套完整的静态站点测试样例。</p>
+    </header>
+
+    <section class="about-grid">
+      <figure class="about-figure reveal">
+        <img src="../assets/images/desk-notes.svg" alt="桌上的相机、笔记本与咖啡插画" width="1200" height="780" data-local-image>
+      </figure>
+      <div class="about-copy reveal reveal-delay">
+        <p class="section-kicker">Hello</p>
+        <h2>我记录那些容易被略过的细节。</h2>
+        <p>城市怎样在早上醒来，一件工具怎样进入日常，一张照片为什么被留下。这里的文章大多从这些小事开始。</p>
+        <p>这个站点采用原生 HTML、CSS 和 JavaScript 编写，没有外部框架或在线资源依赖。所有页面和图片都能通过相对路径访问。</p>
+        <dl class="about-facts">
+          <div><dt>主题</dt><dd>散步、摄影、数字生活</dd></div>
+          <div><dt>更新</dt><dd>不定期</dd></div>
+          <div><dt>技术</dt><dd>纯静态，无构建步骤</dd></div>
+        </dl>
+        <a class="button button-primary" href="../posts/">去读文章</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-inner"><div><p class="footer-title">缓慢加载</p><p>城市、工具和一点日常观察。</p></div><p>© <span data-current-year>2030</span> · 静态站点测试样例</p></div></footer>
+</body>
+</html>

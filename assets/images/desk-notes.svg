@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">桌面手记</title>
+  <desc id="desc">木桌上的相机、打开的笔记本、钢笔和一杯咖啡。</desc>
+  <defs>
+    <linearGradient id="desk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bf8b65"/>
+      <stop offset="1" stop-color="#916447"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3f2c22" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="780" fill="url(#desk)"/>
+  <g opacity=".18" stroke="#4f3424" stroke-width="3" fill="none">
+    <path d="M0 129c184 21 354-18 568 2s413-19 632 4"/>
+    <path d="M0 395c190-18 399 18 595-1s398 9 605-3"/>
+    <path d="M0 651c232 22 407-20 628 2s371-14 572 6"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M192 176h328c40 0 72 32 72 72v374H264c-40 0-72-32-72-72Z" fill="#f4eddc"/>
+    <path d="M592 248c0-40 32-72 72-72h328v374c0 40-32 72-72 72H592Z" fill="#fbf7eb"/>
+    <path d="M592 202v394" stroke="#cdbda9" stroke-width="5"/>
+  </g>
+  <g stroke="#b6aa99" stroke-width="3" opacity=".8">
+    <path d="M250 275h263M250 327h263M250 379h263M250 431h263M250 483h190"/>
+    <path d="M671 275h254M671 327h254M671 379h254M671 431h218M671 483h254"/>
+  </g>
+  <g fill="none" stroke="#315b47" stroke-width="7" stroke-linecap="round">
+    <path d="M272 302c33 17 42-11 72 4s52-8 90 5"/>
+    <path d="M273 354c41 12 76-13 123 3"/>
+    <path d="M692 300c58 22 99-18 167 3"/>
+  </g>
+  <g transform="translate(115 485) rotate(-12)" filter="url(#shadow)">
+    <rect width="252" height="150" rx="24" fill="#27352f"/>
+    <rect x="27" y="-23" width="92" height="42" rx="12" fill="#34483e"/>
+    <circle cx="133" cy="77" r="57" fill="#17201c" stroke="#51685d" stroke-width="10"/>
+    <circle cx="133" cy="77" r="31" fill="#91aea0"/>
+    <circle cx="214" cy="35" r="10" fill="#d47a54"/>
+  </g>
+  <g transform="translate(877 87)" filter="url(#shadow)">
+    <circle cx="115" cy="115" r="101" fill="#ece1cf"/>
+    <circle cx="115" cy="115" r="74" fill="#6b4935"/>
+    <path d="M42 92c46 25 103-32 148 0 20 15 14 52-10 68-41 28-115 17-139-26-8-14-9-30 1-42Z" fill="#8d6247"/>
+    <path d="M207 83c60-17 69 87 6 91" fill="none" stroke="#ece1cf" stroke-width="22"/>
+  </g>
+  <g transform="translate(788 532) rotate(18)">
+    <rect width="232" height="18" rx="9" fill="#203c31"/>
+    <path d="m232 0 45 9-45 9Z" fill="#dbc8a4"/>
+    <path d="m266 7 11 2-11 2Z" fill="#2b2520"/>
+  </g>
+  <g fill="#e4a17c" opacity=".9">
+    <circle cx="94" cy="112" r="35"/><circle cx="151" cy="87" r="19"/><circle cx="1091" cy="661" r="41"/>
+  </g>
+</svg>
